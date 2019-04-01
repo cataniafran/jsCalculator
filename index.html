@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|ZCOOL+QingKe+HuangYou" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title">JS calculator</h1>
+    </div>
+
+    <div class="container">
+        <div class="calc">
+            <div class="row">
+                <div class="display-background">
+                    <span class="display">0</span>
+                </div>
+            </div>
+            <div class="utility quadrant">
+                <div class="row">
+                    <button class="calcButton" data-value="clear" data-type="utility">C</button>
+                    <button class="calcButton" data-value="delete" data-type="utility">DEL</button>
+                    <span class="logo">CT2000</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="numbers quadrant">
+                    <div class="row">
+                        <div class="col">
+                            <button class="calcButton" data-value="7" data-type="number">7</button>
+                            <button class="calcButton" data-value="4" data-type="number">4</button>
+                            <button class="calcButton" data-value="1" data-type="number">1</button>
+                        </div>
+                        <div class="col">
+                            <button class="calcButton" data-value="8" data-type="number">8</button>
+                            <button class="calcButton" data-value="5" data-type="number">5</button>
+                            <button class="calcButton" data-value="2" data-type="number">2</button>
+                            <button class="calcButton" data-value="0" data-type="number">0</button>
+                        </div>
+                        <div class="col">
+                            <button class="calcButton" data-value="9" data-type="number">9</button>
+                            <button class="calcButton" data-value="6" data-type="number">6</button>
+                            <button class="calcButton" data-value="3" data-type="number">3</button>
+                            <button class="calcButton" data-value="." data-type="dot">.</button>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="operators quadrant">
+                    <div class="row">
+                        <div class="col">
+                            <button class="calcButton" data-value="(" data-type="parenthesis">(</button>
+                            <button class="calcButton" data-value="+" data-type="operator">+</button>
+                            <button class="calcButton" data-value="*" data-type="operator">&times</button>
+                        </div>
+                        <div class="col">
+                            <button class="calcButton" data-value=")" data-type="parenthesis">)</button>
+                            <button class="calcButton" data-value="-" data-type="operator">-</button>
+                            <button class="calcButton" data-value="/" data-type="operator">/</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <button class="calcButton" data-value="=" data-type="utility">=</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

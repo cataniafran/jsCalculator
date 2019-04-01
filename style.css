@@ -1,0 +1,123 @@
+html {
+    font-size: 16px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.title {
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 600px;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    box-sizing: border-box;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.col {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    flex-direction: column;
+}
+
+.display-background {
+    margin-bottom: 20px; 
+    text-align: right;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    height: 60px;
+    width: 400px;
+    background-color: aquamarine;
+    padding: 1rem 1rem;
+    overflow: auto;
+}
+
+.display{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+
+.calc {
+    margin: auto;
+    box-sizing: border-box;
+    width: 440px;
+    height: 480px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px gray;
+    padding: 10px;
+}
+
+.quadrant {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.utility {
+    width: 100%;
+}
+
+.logo {
+    margin-left: auto;
+    position: relative;
+    right: 10px;
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    font-size: 2.5rem;
+    color: rgb(31, 32, 37);
+
+}
+
+.logo::before {
+    position: relative;
+    bottom:0.4em;
+    right: 0.1em;
+    content: "";
+    display: inline-block;
+    width: .25em;
+    height: .25em;
+    background-color: brown;
+}
+
+.calc button {
+    padding: .4rem 1rem;
+    font-size: 1rem;
+    width: 80px;
+    height: 60px;
+}
+
+button[data-value="="] {
+    width: 160px;
+}
